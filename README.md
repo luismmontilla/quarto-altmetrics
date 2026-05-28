@@ -1,4 +1,4 @@
-# Quarto Altmetric Badge Extension
+# Quarto Altmetric Badge Extension 
 
 [![Quarto Extension](https://img.shields.io/badge/Quarto-Extension-blue)](https://quarto.org/docs/extensions/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -55,7 +55,9 @@ details:
 - true
 - or omit
 
-See the [examples.qmd](example.qmd) file for more details.
+See the example files for more details:
+- [Single DOI](single_doi_example.qmd)
+- [Multiple DOIs](multiple_doi_example.qmd)
 
 ## License
 
