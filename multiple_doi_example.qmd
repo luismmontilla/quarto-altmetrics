@@ -1,0 +1,16 @@
+---
+title: "This is another paper"
+---
+# Multiple DOIs for different badges:
+
+- Default style with DOI: 10.3390/ijerph192416593
+{{< altmetrics doi="10.3390/ijerph192416593" >}}
+
+- Default with DOI: 10.1038/nature12345
+{{< altmetrics doi="10.1038/nature12345" >}}
+
+- Default (no type attribute, with details)
+{{< altmetrics doi="10.3390/ijerph192416593" details=true >}}
+
+- Default (no type attribute, with details)
+{{< altmetrics doi="10.1038/nature12345" details=true >}}

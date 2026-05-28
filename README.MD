@@ -1,4 +1,4 @@
-# Quarto Altmetric Badge Extension
+# Quarto Altmetric Badge Extension <img src="drawing.svg" align="right" alt="Logo: A butterfly in the blue sky with comments" width="150"/>
 
 [![Quarto Extension](https://img.shields.io/badge/Quarto-Extension-blue)](https://quarto.org/docs/extensions/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -21,11 +21,12 @@ This will install the extension under the _extensions subdirectory. If you're us
 
 ## Prerequisites
 
-A DOI must be present in your document's YAML front matter:
+A DOI must be present in your document's YAML front matter. Alternatively, you can inser the short code with the DOI if you want to include multiple badges in the same page.
 
 ## Usage
 
 Insert the shortcode {{< altmetrics >}} anywhere in your Quarto document where you want the badge to appear.
+
 ### Basic Example
 
 ```qmd
@@ -33,9 +34,7 @@ Insert the shortcode {{< altmetrics >}} anywhere in your Quarto document where y
 title: "My Paper"
 doi: "10.1234/example.567"
 ---
-
-
-Here is the Altmetric attention for this paper:
+Here is the Altmetric score for this paper:
 
 {{< altmetrics >}}
 ```
@@ -56,8 +55,7 @@ details:
 - true
 - or omit
 
-
-Examples
+See the [examples.qmd](example.qmd) file for more details.
 
 ## License
 
