@@ -1,4 +1,4 @@
-# Quarto Altmetric Badge Extension <img src="drawing.svg" align="right" alt="Logo: A butterfly in the blue sky with comments" width="150"/>
+# Quarto Altmetric Badge Extension
 
 [![Quarto Extension](https://img.shields.io/badge/Quarto-Extension-blue)](https://quarto.org/docs/extensions/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
